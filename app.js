@@ -37,7 +37,7 @@ function fetchArticles(category) {
 }
 
 function renderArticles() {
-  const limit = 20;
+  const limit = 50;
   const sortOrder = 'desc';
 
   let filtered = allArticles;
